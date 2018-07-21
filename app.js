@@ -8,6 +8,7 @@ el = document.getElementById('growler');
 growler = new Vue({
   el: el,
   data: {
-    appName: 'Growler'
+    appName: 'Growler',
+    query: ''
   }
 });
